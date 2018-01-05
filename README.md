@@ -1,5 +1,4 @@
-EarthCoin <br>
-☆ RELOADED ☆
+EarthCoin ☆ RELOADED
 =============
 
 EarthCoin is a scrypt based coin with a community that focuses on people, freedom and environmental sustainability.
