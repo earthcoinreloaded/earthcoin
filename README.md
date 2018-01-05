@@ -1,10 +1,10 @@
-EarthCoin 
+EarthCoin <br>
 ☆ RELOADED ☆
 =============
 
 EarthCoin is a scrypt based coin with a community that focuses on people, freedom and environmental sustainability.
 
-☆ http://earthcoin.io
+☆ http://earthcoin.io <br>
 ☆ https://bitcointalk.org/index.php?topic=2161853.0
 
 People, Freedom and Foresight.
