@@ -19,12 +19,32 @@ body {
  /*  background-attachment:fixed;*/
    background-size:100% auto;
 }
+ 
+ a:link    {
+  /* Applies to all unvisited links */
+  text-decoration:  none;
+  color: #5db842;
+  } 
+a:visited {
+  text-decoration:  none;
+  color: #5db842;
+  } 
+a:hover   {
+  text-decoration:  underline;
+  color: #0089bf;
+  } 
+a:active  {
+  text-decoration:  none;
+  color: #5db842;
+  } 
+ 
 #container {
    padding:90px 0px 0px 0px;
    position:relative;
   /* background-color:rgba(255,255,255,0.1);*/
 }
-#header {
+ 
+ #header {
    padding:10px 0px 10px 0px;
    width:100vw;
    /*background-color:rgba(255,255,255,0.3);*/
@@ -60,7 +80,15 @@ font-size: 10pt;
  overflow-x: hidden;
  margin:0px auto 0px auto;
 }
- .pane {
+ .pane_gr {
+ background-color:rgba(93, 184, 66,0.1);
+ margin:30px auto 0px auto;
+ padding: 0px 0px 10px 0px;
+ width: 300px;
+ border-radius: 10px 10px 10px 10px;
+ border: 1px solid #5db842;
+}
+ .pane_bl {
  background-color:rgba(93, 184, 66,0.1);
  margin:30px auto 0px auto;
  padding: 0px 0px 10px 0px;
@@ -91,7 +119,7 @@ max-width:60px;
 width:5vw;
 padding:30px 0px 0px 0px;
 }
- .link_logo_wallet {
+ .link_logo_x {
 min-width:50px;
 max-width:60px;
 width:5vw;
@@ -123,8 +151,8 @@ font-size: 9pt;
 <br>Official Forum
 <br><a href="https://coinmarketcap.com/currencies/EarthCoin/" target="_blank" ><img alt="earthcoin charts" class="link_logo" src="/earthcoin/media/chart_icon.svg"/></a>
 <br>EarthCoin (EAC) Price
-<div class="pane">
- <br><img alt="earthcoin wallet" class="link_logo_wallet" src="/earthcoin/media/wallet_icon.svg"/>
+<div class="pane_gr">
+<br><img alt="earthcoin wallet" class="link_logo_x" src="/earthcoin/media/wallet_icon.svg"/>
 <br>Official EarthCoin Wallet (v1.5.2)
 <br><br>Source code<br>
 <a href="https://github.com/Sandokaaan/earthcoin" target="_blank">GitHub</a>
@@ -137,7 +165,7 @@ Linux 64 bit QT<br>
 <a href="https://mega.nz/#!tDQS3JIQ!1qbSlSuhwNOmh2k8a0yeT-Sezt7VIWjpQ_NQhHIIGnM" target="_blank">Original</a>
 | <a href="https://mega.nz/#!rAUX1K5L!1qbSlSuhwNOmh2k8a0yeT-Sezt7VIWjpQ_NQhHIIGnM" target="_blank">Mirror</a>
  <br><br>
-Mac OS<br>
+Mac OSX<br>
  <span class="st2">Beta testing now available - Check forum</span>
  </div>
  </div>
