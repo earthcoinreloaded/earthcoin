@@ -6,7 +6,134 @@
  <meta name="description" content="The Earthcoin Portal">
  <meta name="keywords" content="earthcoin, EAC, earthcoin.io">
 <title>Earthcoin (EAC)</title>
- <link rel="stylesheet" type="text/css" href="/earthcoin/styles.css" media="screen">
+ <style media="screen">
+  html,
+body {
+   text-align: center;
+   margin:0;
+   padding:0;
+   height:100%;
+   background:#ffffff url('/earthcoin/media/bird-photo-wallpaper.jpg');
+   background-repeat:no-repeat;
+   background-position:right top;
+ /*  background-attachment:fixed;*/
+   background-size:100% auto;
+}
+ 
+ a:link    {
+  /* Applies to all unvisited links */
+  text-decoration:  none;
+  color: #5db842;
+  } 
+a:visited {
+  text-decoration:  none;
+  color: #5db842;
+  } 
+a:hover   {
+  text-decoration:  underline;
+  color: #0089bf;
+  } 
+a:active  {
+  text-decoration:  none;
+  color: #5db842;
+  } 
+ 
+#container {
+   padding:90px 0px 0px 0px;
+   position:relative;
+  /* background-color:rgba(255,255,255,0.1);*/
+}
+ 
+ #header {
+   padding:10px 0px 10px 0px;
+   width:100vw;
+   /*background-color:rgba(255,255,255,0.3);*/
+}
+#content {
+   padding-top:10px;
+   padding-bottom:0px;   /* Height of the footer */
+ color:#000000;
+font-family:calibri,sans-serif;
+font-size: 11pt;
+}
+#footer {
+   padding:0px 0px 0px 0px;
+   position:absolute;
+   bottom:-80px;
+   width:100%;
+   height:0px;   /* Height of the footer */
+   color:#555555;
+font-family: calibri, sans-serif;
+font-size: 10pt;
+}
+ .coinmarketcap-currency-widget {
+  background-color:rgba(255,255,255,0.4);
+  margin:10px auto 0px auto;
+  padding:0px 0px 0px 0px;
+  width:300px;
+ }
+.scroll {
+ background-color:rgba(255,255,255,0.3);
+ width: 50vw;
+ height: auto;
+ overflow: scroll;
+ overflow-x: hidden;
+ margin:0px auto 0px auto;
+}
+ .pane_gr {
+ background-color:rgba(93, 184, 66,0.1);
+ margin:30px auto 0px auto;
+ padding: 0px 0px 10px 0px;
+ width: 300px;
+ border-radius: 10px 10px 10px 10px;
+ border: 1px solid #5db842;
+}
+ .pane_bl {
+ background-color:rgba(0,137,191,0.1);
+ margin:30px auto 0px auto;
+ padding: 0px 0px 10px 0px;
+ width: 300px;
+ border-radius: 10px 10px 10px 10px;
+ border: 1px solid #0089bf;
+}
+div.st1 {
+color:#555555;
+font-family: calibri, sans-serif;
+font-size: 11pt;
+ width: 80vw;
+ height: auto;
+ overflow: hidden;
+ margin:0px auto 0px auto;
+ max-width:600px;
+} 
+ .logo {
+max-width:280px;
+min-width:220px;
+/*width:40%;*/
+width:25vw;
+padding:0px 0px 10px 0px;
+}
+.link_logo {
+min-width:50px;
+max-width:60px;
+width:5vw;
+padding:30px 0px 0px 0px;
+}
+ .link_logo_x {
+min-width:50px;
+max-width:60px;
+width:5vw;
+padding:0px 0px 0px 0px;
+}
+.logo_footer {
+max-width:50%;
+width:100px;
+}
+ .st2 {
+font-family: calibri, sans-serif;
+font-size: 9pt;
+  }
+ </style>
 </head>
 <body>
 <a id="top"></a>
@@ -24,7 +151,7 @@
 <br>Official Forum
 <br><a href="https://coinmarketcap.com/currencies/EarthCoin/" target="_blank" ><img alt="earthcoin charts" class="link_logo" src="/earthcoin/media/chart_icon.svg"/></a>
 <br>EarthCoin (EAC) Price
-<div class="pane_bl">
+<div class="pane_gr">
 <br><img alt="earthcoin wallet" class="link_logo_x" src="/earthcoin/media/wallet_icon.svg"/>
 <br>Official EarthCoin Wallet (v1.5.2)
 <br><br>Source code<br>
